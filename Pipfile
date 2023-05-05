@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+python-logging-base = {editable = true, git = "https://github.com/praecipula/python_logging_base"}
 pyyaml = "*"
 slack-bolt = "*"
 

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "9ce41d2f4fc32635078d1833c7a6cdd7cac42cb592933004cdd1b341f1d89ba9"
+            "sha256": "3a903f684926210cfc2a5c67e336b61ec56bdacf07e5d2d9ccc8eba26603c94a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,11 @@
         ]
     },
     "default": {
+        "python-logging-base": {
+            "editable": true,
+            "git": "https://github.com/praecipula/python_logging_base",
+            "ref": "1dfc5ed83d104aba71e3b12e369ccb5c89dfcb49"
+        },
         "pyyaml": {
             "hashes": [
                 "sha256:01b45c0191e6d66c470b6cf1b9531a771a83c1c4208272ead47a3ae4f2f603bf",
@@ -75,7 +80,7 @@
                 "sha256:20829bdc1a423ec93dac903470975ebf3bc76fd3fd91a4dadc0eeffc940ecb0c",
                 "sha256:de3c07b92479940b61cd68c566f49fbc9974c8f38f661d26244078f3903bb9cc"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_full_version >= '3.6.0'",
             "version": "==3.21.3"
         }
     },
