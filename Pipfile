@@ -9,6 +9,11 @@ pyyaml = "*"
 slack-bolt = "*"
 
 [dev-packages]
+pyinstaller = "*"
 
 [requires]
 python_version = "3.11"
+
+
+[scripts]
+build="pipenv run pyinstaller --clean -y --onedir --windowed -n 'slack_me' --add-data 'slack_me/credentials.yaml:.' 'slack_me/message.py'"
