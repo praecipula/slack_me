@@ -8,7 +8,7 @@ setup(
     author='Matt Bramlage',
     license='MIT',
     packages=['slack_me'],
-    install_requires=['pyyaml'],
+    install_requires=['pyyaml', 'slack-bolt'],
 
     classifiers=[
         'Development Status :: 1 - Planning',
