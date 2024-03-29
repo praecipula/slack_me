@@ -62,6 +62,7 @@ class SlackBotsChannelMessenger:
 
         except SlackApiError as e:
                 print(f"Error: {e}")
+        return result
 
 if __name__ == "__main__":
     # When run not as a library, do our base logging config.
